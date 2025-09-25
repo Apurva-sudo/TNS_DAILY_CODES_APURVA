@@ -1,0 +1,23 @@
+package com.statickeyword;
+
+public class Employee {
+	// instance variables
+	private int empid;
+	private String name;
+	
+	// static variable
+	static String compnayName="Amazon";  // constant value
+
+	public Employee(int empid, String name) {
+		super();
+		this.empid = empid;
+		this.name = name;
+	}
+
+	public void empData()
+	{
+		System.out.println("EmpId: "+empid+" EmpName: "+name+" Company: "+compnayName);
+	}
+	
+
+}
